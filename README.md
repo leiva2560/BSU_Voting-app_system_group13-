@@ -1,15 +1,19 @@
-# Folder 2 — Auth + User Dashboard
+# Folder 1 ï¿½ Authentication & Firebase
 **Member:** [Name]
 
 ## Screens Included
-- Login, Registration
-- Election Dashboard (sidebar navigation, active/upcoming/completed elections)
+- Login Screen (registration number + password, forgot password)
+- Registration Screen (saves to Firestore)
 
 ## Firebase Setup
-- Firebase Auth, Firestore, App Check
+- Firebase Auth (email/password)
+- Cloud Firestore (users collection)
+- App Check (debug mode)
 
 ## How to Run
-`flutter pub get && flutter run`
+1. Run `flutter pub get`
+2. Run `flutter run`
 
 ## Notes
-- Election detail is a stub (coming in folder 3)
+- Login shows a success snackbar (no dashboard in this folder)
+- Registration saves: uid, registrationNumber, name, email, role='student'
