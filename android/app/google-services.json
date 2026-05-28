@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "709787559096",
+    "project_id": "bsuvotingapp",
+    "storage_bucket": "bsuvotingapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709787559096:android:e79d8e3d6a611282dec04d",
+        "android_client_info": {
+          "package_name": "com.example.voting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATbPr7X2zRYYnkQpyZNCOpRFGsePZSqT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      },
+      "storage_bucket": "bsuvotingapp.firebasestorage.app"
+    }
+  ],
+  "configuration_version": "1"
+}
